@@ -1,5 +1,10 @@
 # dnw
 # for usb download code 
+#enviroment 
+apt-get install linux-header-$(uname-r) 
+apt-get install linux-source-$(uname-r)
+
+
 
 cd secbulk
 make 
